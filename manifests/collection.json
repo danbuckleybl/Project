@@ -1,0 +1,13 @@
+{
+  "id" : "https://danbuckleybl.github.io/Project/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in danbuckleybl/Project project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://danbuckleybl.github.io/Project/manifests/projectmanifest.json",
+    "label" : "A test manifest"
+  } ]
+}
