@@ -1,225 +1,359 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://danbuckleybl.github.io/Project/manifests/projectmanifest.json",
-  "@type" : "sc:Manifest",
-  "label" : "A test manifest",
-  "metadata" : [ ],
-  "description" : [ {
-    "@value" : "[Click to edit description]",
-    "@language" : "This is the description of the test manifest"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "This is the attribution for the test manifest",
-  "sequences" : [ {
-    "@id" : "http://d4d9aa36-3e69-4299-819d-3b5af06957f1",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
-    } ],
-    "canvases" : [ {
-      "@id" : "http://036e555f-35d1-42a1-8f1c-94acd900afcd",
-      "@type" : "sc:Canvas",
-      "label" : "Front cover",
-      "height" : 6308,
-      "width" : 4659,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://e525f5fc-c9a6-4242-8da3-caef85b033d1",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000001/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000001",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 6308,
-          "width" : 4659
-        },
-        "on" : "http://036e555f-35d1-42a1-8f1c-94acd900afcd"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://67da11b1-653e-4b8e-9ca5-e7f7bd1eb2f0",
-      "@type" : "sc:Canvas",
-      "label" : "Inside Front Cover",
-      "height" : 6236,
-      "width" : 4627,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://9bd1606f-c705-4f70-854e-f8ccbcb94a53",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000002/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000002",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 6236,
-          "width" : 4627
-        },
-        "on" : "http://67da11b1-653e-4b8e-9ca5-e7f7bd1eb2f0"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://38514451-0276-42de-a3bf-8de3524c9562",
-      "@type" : "sc:Canvas",
-      "label" : "Page One",
-      "height" : 6117,
-      "width" : 4317,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://05090bb6-358b-41bf-b371-d99fecd3fbb9",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000003/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000003",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 6117,
-          "width" : 4317
-        },
-        "on" : "http://38514451-0276-42de-a3bf-8de3524c9562"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://92b79001-e818-421a-b694-72ed1acb6e84",
-      "@type" : "sc:Canvas",
-      "label" : "Page Two",
-      "height" : 6149,
-      "width" : 4285,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://f543ddda-9030-4a76-80ca-54a315c8fd6e",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000004/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000004",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 6149,
-          "width" : 4285
-        },
-        "on" : "http://92b79001-e818-421a-b694-72ed1acb6e84"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://640a2887-1598-459f-9a3a-0042b2bcf98b",
-      "@type" : "sc:Canvas",
-      "label" : "Page Three",
-      "height" : 6156,
-      "width" : 4317,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://2a1ffb9d-a9f1-40e5-93b3-c959d25116bd",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000005/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000005",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 6156,
-          "width" : 4317
-        },
-        "on" : "http://640a2887-1598-459f-9a3a-0042b2bcf98b"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://4c300cb8-9ead-41f4-9af5-0975eb2fdc6e",
-      "@type" : "sc:Canvas",
-      "label" : "Page Four",
-      "height" : 6124,
-      "width" : 4285,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://3cb64476-1986-486c-bb63-b5627ab5543a",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000006/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000006",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 6124,
-          "width" : 4285
-        },
-        "on" : "http://4c300cb8-9ead-41f4-9af5-0975eb2fdc6e"
-      } ],
-      "related" : ""
-    } ]
-  } ],
-  "structures" : [ {
-    "@id" : "http://example.org/iiif/book1/range/top",
-    "@type" : "sc:Range",
-    "label" : "Table of Content",
-    "viewingHint" : "top",
-    "ranges" : [ "http://example.org/iiif/book1/range/cover", "http://example.org/iiif/book1/range/pages" ]
-  }, {
-    "@id" : "http://example.org/iiif/book1/range/cover",
-    "@type" : "sc:Range",
-    "label" : "Cover",
-    "canvases" : [ "http://036e555f-35d1-42a1-8f1c-94acd900afcd" ]
-  }, {
-    "@id" : "http://example.org/iiif/book1/range/pages",
-    "@type" : "sc:Range",
-    "label" : "Pages",
-    "canvases" : [ "http://38514451-0276-42de-a3bf-8de3524c9562" ]
-  } ]
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://10452bf7-5005-4553-8c13-c6a3294839c6",
+	"@type": "sc:Manifest",
+	"label": "A test manifest",
+  "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://dev.gdmrdigital.com/search-api/1245635613/97972693/manifests/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+},
+	"metadata": [],
+	"description": [
+		{
+			"@value": "This is the description of the test manifest",
+			"@language": "This is the description of the test manifest"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "This is the attribution for the test manifest",
+	"sequences": [
+		{
+			"@id": "http://d4d9aa36-3e69-4299-819d-3b5af06957f1",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://036e555f-35d1-42a1-8f1c-94acd900afcd",
+					"@type": "sc:Canvas",
+					"label": "Front cover",
+					"height": 6308,
+					"width": 4659,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e525f5fc-c9a6-4242-8da3-caef85b033d1",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000001/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000001",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 6308,
+								"width": 4659
+							},
+							"on": "http://036e555f-35d1-42a1-8f1c-94acd900afcd"
+						}
+					],
+					"otherContent": [
+    {
+        "@id": "https://danbuckleybl.github.io/Project/annotations/frontcover",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }
+],
+					"related": ""
+				},
+				{
+					"@id": "http://67da11b1-653e-4b8e-9ca5-e7f7bd1eb2f0",
+					"@type": "sc:Canvas",
+					"label": "Inside Front Cover",
+					"height": 6236,
+					"width": 4627,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9bd1606f-c705-4f70-854e-f8ccbcb94a53",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000002/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000002",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 6236,
+								"width": 4627
+							},
+							"on": "http://67da11b1-653e-4b8e-9ca5-e7f7bd1eb2f0"
+						}
+					],
+					"otherContent": [
+					{
+        "@id": "https://danbuckleybl.github.io/Project/annotations/insidecover",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }
+],
+					"related": ""
+				},
+				{
+					"@id": "http://38514451-0276-42de-a3bf-8de3524c9562",
+					"@type": "sc:Canvas",
+					"label": "Page One",
+					"height": 6117,
+					"width": 4317,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://05090bb6-358b-41bf-b371-d99fecd3fbb9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000003/500,500,500,500/500/180/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000003",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 6117,
+								"width": 4317
+							},
+							"on": "http://38514451-0276-42de-a3bf-8de3524c9562"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://92b79001-e818-421a-b694-72ed1acb6e84",
+					"@type": "sc:Canvas",
+					"label": "Page Two",
+					"height": 6149,
+					"width": 4285,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f543ddda-9030-4a76-80ca-54a315c8fd6e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000004/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000004",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 6149,
+								"width": 4285
+							},
+							"on": "http://92b79001-e818-421a-b694-72ed1acb6e84"
+						}
+					],
+					"otherContent": [
+					{
+        "@id": "https://danbuckleybl.github.io/Project/annotations/pagetwo",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }
+],
+					"related": ""
+				},
+				{
+					"@id": "http://640a2887-1598-459f-9a3a-0042b2bcf98b",
+					"@type": "sc:Canvas",
+					"label": "Page Three",
+					"height": 6156,
+					"width": 4317,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2a1ffb9d-a9f1-40e5-93b3-c959d25116bd",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000005/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000005",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 6156,
+								"width": 4317
+							},
+							"on": "http://640a2887-1598-459f-9a3a-0042b2bcf98b"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://4c300cb8-9ead-41f4-9af5-0975eb2fdc6e",
+					"@type": "sc:Canvas",
+					"label": "Page Four",
+					"height": 6124,
+					"width": 4285,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://3cb64476-1986-486c-bb63-b5627ab5543a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000006/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000006",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 6124,
+								"width": 4285
+							},
+							"on": "http://4c300cb8-9ead-41f4-9af5-0975eb2fdc6e"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+"structures": [
+    {
+        "@id": "http://example.org/iiif/book1/range/top",
+        "@type": "sc:Range",
+        "label": "Table of Content",
+        "viewingHint": "top",
+        "ranges": [
+			"http://example.org/iiif/book1/range/cover",
+			"http://example.org/iiif/book1/range/pages"
+        ]
+    },
+	{
+        "@id": "http://example.org/iiif/book1/range/cover",
+        "@type": "sc:Range",
+        "label": "Cover",
+        "canvases": [
+            "http://036e555f-35d1-42a1-8f1c-94acd900afcd"			
+        ]
+    },
+	{
+        "@id": "http://example.org/iiif/book1/range/pages",
+        "@type": "sc:Range",
+        "label": "Pages",
+        "canvases": [
+            "http://38514451-0276-42de-a3bf-8de3524c9562"
+        ]
+    }
+]
 }
