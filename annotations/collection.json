@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://danbuckleybl.github.io/Project/annotations/frontcover", "https://danbuckleybl.github.io/Project/annotations/insidecover", "https://danbuckleybl.github.io/Project/annotations/page1" ],
+  "otherContent" : [ "https://danbuckleybl.github.io/Project/annotations/frontcover", "https://danbuckleybl.github.io/Project/annotations/insidecover", "https://danbuckleybl.github.io/Project/annotations/page1", "https://danbuckleybl.github.io/Project/annotations/page2" ],
   "@id" : "https://danbuckleybl.github.io/Project/annotations/collection.json",
   "label" : "All annotations loaded in danbuckleybl/Project project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
